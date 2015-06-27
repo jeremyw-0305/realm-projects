@@ -1,0 +1,30 @@
+I have decided to do a simple calculator for this project and submit it with a documentation file
+	going line by line with what is going on in the program in hopes of learning the Elixir better and
+	ensuring I have a proper understanding of the language.
+	
+Line 1: This line is simply the named function line similar to C++ with int main(), but instead of ending 
+	with a parenthesis it end with do.
+
+Line 2: Within the named function of line one exist another function on line two in this case called sum.
+	The purpose of sum in this case is to except a list of integers and to allocate space for a variable 
+	named total for later use.
+
+Line 3: This line tells the computer what to do with the input from line two and then displays the results.
+
+Line 4: This line is currently commented out but its purpose was meant to throw up an exception handler in
+	case the user attempted to insert anything other than an integer. I will still be needing to practice
+	how to use exceptions in this language as (having demonstrated here) I have not quite understood how to
+	properly implement them.
+	
+Line 5: left blank for readability purposes.
+
+Line 6 through Line 17 : These lines are essentially the the same as lines two and three just replaced with 
+	subtraction, multiplication, and division. The only difference would be lines nine and ten as well as 
+	lines fourteen and fifteen. I attempted to do the multiplication in the same manor as the addition, but
+	kept getting 0 as the product. So I proceeded to dig around on the internet a little and found a publication
+	on Elixir that wrote as I show here, but I can't help but think there should be a simpler way of writing
+	this than as I have done.
+	
+Line 19: marks the end of the named function and I would assume works the same as the ending bracket in
+	other languages.
+	
